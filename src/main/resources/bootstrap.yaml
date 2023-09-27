@@ -1,0 +1,19 @@
+server:
+  #?????
+  port: 8006
+
+spring:
+  application:
+    #??pom?????name
+    name: nacos-demo
+
+# nacos??
+nacos:
+  config:
+    # ??????
+    server-addr: 127.0.0.1:8848
+    # ??namespace?id
+    namespace: d831abb1-bfb2-458f-ad38-0a3090b2f827
+  discovery:
+    # ??????
+    server-addr: 127.0.0.1:8848
